@@ -1,4 +1,4 @@
-package net.elm.Dao;
+package net.elm.dao;
 
 public class DaoImpl implements IDao{
 

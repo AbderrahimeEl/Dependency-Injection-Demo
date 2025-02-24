@@ -1,6 +1,6 @@
 package net.elm.presentation;
 
-import net.elm.Dao.DaoImpl;
+import net.elm.dao.DaoImpl;
 import net.elm.metier.MetierImpl;
 
 public class MainStatic {

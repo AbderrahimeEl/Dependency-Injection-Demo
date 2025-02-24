@@ -1,5 +1,5 @@
 package net.elm.metier;
-import net.elm.Dao.IDao;
+import net.elm.dao.IDao;
 public class MetierImpl implements IMetier{
     private IDao dao ;
 
@@ -17,5 +17,8 @@ public class MetierImpl implements IMetier{
     // Injection by setter
     public void setDao(IDao dao) {
         this.dao = dao;
+    }
+
+    public MetierImpl() {
     }
 }
