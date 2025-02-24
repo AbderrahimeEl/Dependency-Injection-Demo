@@ -1,5 +1,10 @@
 package net.elm.metier;
 import net.elm.dao.IDao;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+
+@Component("metier")
 public class MetierImpl implements IMetier{
     private IDao dao ;
 
@@ -10,6 +15,7 @@ public class MetierImpl implements IMetier{
     }
 
     // Injection by constructor
+    @Autowired
     public MetierImpl(IDao dao) {
         this.dao = dao;
     }
